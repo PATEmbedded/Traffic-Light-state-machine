@@ -20,7 +20,7 @@ Each traffic light phase is implemented as a separate state:
 
 Below is the visual representation of the state flow:
 
-![Traffic Light Diagram](IM446.png)
+![Traffic Light Diagram](smUML.png)
 
 ---
 
