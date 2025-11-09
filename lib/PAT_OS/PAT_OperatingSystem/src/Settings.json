@@ -1,0 +1,101 @@
+// "Dynamic": {
+//   "Enable": "ON",
+//   "mac": "DEADBEEFFE01",
+//   "IP": "000.000.000.000",
+//   "GW": "000.000.000.000",
+//   "SN": "000.000.000.000",
+//   "DNS": "000.000.000.000"
+// }
+
+
+
+
+
+{
+  "Settings": {
+      "WiFiNetwork": {
+          "Enable": true,
+          "SSIDs": [
+              {
+                  "Name": "PAT_IOT",
+                  "MAC": "B6:11:74:86:64:A1",
+                  "RSSI_db": -59,
+                  "RSSI_Percentage": "82%",
+                  "RSSI_Distance": 3
+              },
+              {
+                  "Name": "B7tb-dXNlcjI5MzA3Nzg2ODc5",
+                  "MAC": "7E:1C:68:6E:DA:AB",
+                  "RSSI_db": -89,
+                  "RSSI_Percentage": "22%",
+                  "RSSI_Distance": 25
+              }
+          ],
+          "Connections": [
+              {
+                  "Enable": true,
+                  "Name": "PAT_IOT",
+                  "Password": "Password_1"
+              },
+              {
+                  "Enable": false,
+                  "Name": "mahsa",
+                  "Password": "1123456789"
+              }
+          ]
+      },
+      "HotspotNetwork": {
+          "Enable": false,
+          "Name": "NAR_14285576",
+          "Password": "NAR_14285576",
+          "Status": "Disconnected",
+          "IP": "192.168.80.200",
+          "GW": "192.168.80.1",
+          "SN": "255.255.255.0",
+          "DNS": "8.8.8.8"
+      },
+      "LANNetwork": {
+          "Enable": true,
+          "Status": "Disconnected",
+          "Static": {
+              "Enable": false,
+              "mac": "DEADBEEFFE01",
+              "IP": "192.168.88.220",
+              "GW": "192.168.88.1",
+              "SN": "255.255.255.0",
+              "DNS": "8.8.8.8"
+          }
+      },
+      "InputsOutputs": {
+          "ChannelNumber": 12,
+          "Signal": [
+              "Relay",
+              "Relay",
+              "Relay",
+              "Relay",
+              "Relay",
+              "Relay",
+              "Relay",
+              "Relay",
+              "Relay",
+              "Relay",
+              "Relay",
+              "Relay"
+          ]
+      },
+      "MQTTBroker": {
+          "Enable": false
+      },
+      "DateAndTime": "xx:xx",
+      "Password": {
+          "SuperAdmin": "**********",
+          "Admin": "**********",
+          "User": "**********"
+      },
+      "ModelName": "Novaday IOT Controller",
+      "SerialNumber": "NAR_xxxxxxxx",
+      "LastSyncWithServer": "14xx-xx-xx xx:xx",
+      "Version": "1.0.0"
+  }
+}
+
